@@ -1,0 +1,1 @@
+#!/bin/shA=`date`echo $A

@@ -1,0 +1,39 @@
+上传代码
+查看用户名和邮箱
+git config user.name
+git config user.email
+git config --global  --list 
+
+设置用户名和邮箱
+git config --global user.name "huangweijie"
+git config --global user.email "1317820590@qq.com"
+
+ssh-keygen -t rsa -C "这里换上你的邮箱"
+
+初始化
+git init
+git remote add origin <你的项目地址> 
+git remote add origin https://github.com/fffhwj/demo1.git
+
+查看远程仓库
+git remote
+
+git push 
+git push -u origin main
+
+
+添加文件到仓库
+git add .
+
+提交文件到仓库
+git commit -m "a new file"
+
+如果提交的备注写错了，可以用以下命令修改刚刚提交的备注
+git commit --amend
+
+创建并切换分支
+git checkout -b 分支名
+等于
+git branch 分支名
+git checkout 分支名
+
